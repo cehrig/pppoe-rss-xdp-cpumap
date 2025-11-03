@@ -42,5 +42,9 @@ $ bpftool map update name cpu_map key 0x02 0x00 0x00 0x00 value 0x00 0x40 0x00 0
 ...
 ```
 
+## Limitations
+- Requires VLAN tagged packets
+- Only works for TCP & UDP
+
 ## Speed
 ![Speed Test](vroom.png)
